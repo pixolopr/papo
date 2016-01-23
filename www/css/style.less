@@ -1,0 +1,85 @@
+@color1 : #FF9088;
+@color2 : #62BDF0;
+
+@imgpath : "../img/";
+//*MENU*/
+.menulist a {
+    .redbgcolor;
+}
+
+.ion-wallet {
+    background-image: url(@imgpath "wallet1.png");
+    background-position: center;
+    width: 32px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.mediaicon {
+    color: @color1;
+    font-size: xx-large;
+}
+
+.homeicons {
+    border: 1px solid white;
+    font-size: x-small;
+}
+
+.formtext {
+    margin-left: 10%;
+    font-size: small;
+}
+
+.formboxes {
+    width: 80%;
+    margin-left: 10%;
+    height: 34px;
+    margin-top: 5px;
+}
+
+.abouttext {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+//*LOGIN*/
+.loginpop .popup-head {
+    .redbgcolor;
+}
+
+.loginpop .popup-head h3 {
+    color: white;
+}
+
+// reusable classes
+.redbgcolor {
+    background-color: @color1 !important;
+    color: white !important;
+}
+
+.redcolor {
+    color: @color1 !important;
+}
+
+.bluebgcolor {
+    color: white !important;
+    background-color: @color2 !important;
+}
+
+.bluecolor {
+    color: @color2 !important;
+}
+
+.textcenter {
+    text-align: center;
+}
